@@ -32,6 +32,7 @@ int main (){
 //Definiiendo la función
 void calculosalarios(int hnormales, int hextras){
     
+    //Salario total
     float salariototal, segurosocial, AFP, renta, totaldescuento,salariocondescuento;
 
     salariototal= (hnormales*1.75)+(hextras*2.50);
@@ -45,6 +46,7 @@ void calculosalarios(int hnormales, int hextras){
         renta = 0;
     }
 
+    //Salio real
     salariocondescuento = salariototal-segurosocial-AFP-renta;
 
     cout << "Su salario total es: $" << salariototal << endl << endl;

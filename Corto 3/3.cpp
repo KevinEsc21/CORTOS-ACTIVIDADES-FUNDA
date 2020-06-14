@@ -22,10 +22,11 @@ int main (){
 }
 
 // Definiendo nuestra funcion
-
 bool abisiesto(int a){
+
 bool bisiesto;
 
+    //condiciones que determinan si es bisiesto o no
     if (a % 400 == 0){
         bisiesto = true;
     } else if (a % 4 == 0 && a % 100 != 0){

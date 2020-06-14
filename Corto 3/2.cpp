@@ -3,12 +3,15 @@ using namespace std;
 void numeromagico(int, int);
 
 int main (){
+
     int nmagico=36, n;
     cout << endl << "NUMERO MAGICO" << endl << endl;
     cout << "Intenta adivinar el numero magico!" << endl << endl;
     cout << "Tiene solamente cinco intentos para poder adivinar el numero"<< endl << endl;
+    cout << "Si ya no quiere seguir jugando, en cualquier momento solo ingrese el numero cero"<< endl << endl;
     cout << "OJO: si ingresa un numero fuera del rango tendra un intento menos" << endl << endl;
     
+    //Llamando a la función que nos resuelve el problema
     numeromagico (nmagico, n);
 
     return 0;
@@ -19,6 +22,7 @@ int main (){
 void numeromagico(int nmagico, int n){
 
      int i = 1;
+
      while(i<=5){
 
         cout << "--------------------------------------------------------------" << endl;
@@ -44,9 +48,11 @@ void numeromagico(int nmagico, int n){
         }
         i+=1;
      }
+
      if (i>5) {
          cout << "--------------------------------------------------------------" << endl;
          cout<< "Lastimosamente te quedaste sin intentos :(" << endl << endl;
      }
+     
 }
 
