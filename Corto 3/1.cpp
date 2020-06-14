@@ -7,7 +7,7 @@ int main (){
     
     int numempleados, hnormales, hextras;
 
-    cout << endl << endl;
+    cout << endl;
     cout << "CALCULO DEL SALARIO MENSUAL DE LOS EMPLEADOS";
     cout << endl << endl << "Ingrese la cantidad de empleados: ";
     cin >> numempleados;
