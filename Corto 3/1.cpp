@@ -50,6 +50,6 @@ void calculosalarios(int hnormales, int hextras){
     salariocondescuento = salariototal-segurosocial-AFP-renta;
 
     cout << "Su salario total es: $" << salariototal << endl << endl;
-    cout << "Su salario real con descientos aplicados es: $" << salariocondescuento << endl << endl; 
+    cout << "Su salario real con descuentos aplicados es: $" << salariocondescuento << endl << endl; 
 
 }
