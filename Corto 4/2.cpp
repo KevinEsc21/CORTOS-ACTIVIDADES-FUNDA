@@ -15,7 +15,7 @@ int main (){
         cin >> arreglo[i];
     }
     cout << "---------------------------------------------------------";
-    cout << endl << "El promedio de estatura de los 25 estudiantes es: " << promedio(arreglo) << " cm"<< endl;
+    cout << endl << "El promedio de estatura de los 25 estudiantes es: " << promedio(arreglo) << " m"<< endl;
 
     udmedia(arreglo);
 
